@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# data (SQLite + audit reports live here locally; on Render we mount /var/data)
+data/
+data-smoke*/
+reports/
+
+# env
+.env
+.env.local
+
+# os
+.DS_Store
+data-brain-*/
+data-real-*/
+data-pipeline-*/
