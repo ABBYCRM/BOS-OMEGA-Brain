@@ -1,7 +1,7 @@
 {
-  "name": "llm-gateway",
+  "name": "bos-omega-brain",
   "version": "0.1.11",
-  "description": "Plug-and-play LLM gateway with AION 7-law kernel + self-auditor. Drop into any app, route every LLM call through it, audit itself.",
+  "description": "BOS-OMEGA Brain \u2014 OpenAI-compatible LLM gateway with self-auditor.",
   "main": "server.js",
   "type": "module",
   "bin": {
@@ -22,5 +22,18 @@
     "better-sqlite3": "^11.3.0",
     "express": "^4.21.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABBYCRM/BOS-OMEGA-Brain.git"
+  },
+  "homepage": "https://github.com/ABBYCRM/BOS-OMEGA-Brain#readme",
+  "keywords": [
+    "llm-gateway",
+    "bos-omega",
+    "openai-compatible",
+    "router",
+    "circuit-breaker",
+    "audit"
+  ]
 }

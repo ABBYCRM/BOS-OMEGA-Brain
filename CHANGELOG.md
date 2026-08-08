@@ -1,4 +1,10 @@
-# llm-gateway changelog
+## 1.0.0 — 2026-08-08 — Renamed to BOS-OMEGA Brain
+- Cloned from [Aion-Brain](https://github.com/ABBYCRM/Aion-Brain) (which was the canonical home of `llm-gateway`).
+- Rebrand: package name `bos-omega-brain`, README banner, repo metadata.
+- All code preserved verbatim from Aion-Brain. No provider, circuit-breaker, audit, or routing logic changed.
+- New home: https://github.com/ABBYCRM/BOS-OMEGA-Brain
+
+# BOS-OMEGA Brain changelog
 
 All notable changes to this project will be documented in this file.
 

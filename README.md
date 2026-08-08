@@ -1,4 +1,17 @@
-# llm-gateway
+# BOS-OMEGA Brain
+
+> **Renamed from [Aion-Brain](https://github.com/ABBYCRM/Aion-Brain) on 2026-08-08.** The original `llm-gateway` code is preserved verbatim under the BOS-OMEGA brand. See `CHANGELOG.md` for the rebrand entry.
+
+**Part of the BOS-OMEGA platform:**
+- [`BOS-OMEGA-Frontend`](https://github.com/ABBYCRM/BOS-OMEGA-Frontend) — the SPA the operator interacts with
+- [`BOS-OMEGA-Backend`](https://github.com/ABBYCRM/BOS-OMEGA-Backend) — the BOS-OMEGA orchestration engine
+- **`BOS-OMEGA-Brain` (this repo)** — the OpenAI-compatible LLM gateway with self-auditor
+
+This repo is the generic LLM gateway. It doesn't know about BOS-OMEGA — it just routes any LLM call through a provider chain, tracks cost/latency, runs a 5-phase self-audit, and exposes an OpenAI-compatible HTTP edge.
+
+---
+
+## Original `llm-gateway` README (preserved)
 
 > Plug-and-play LLM gateway with a self-auditor built in. Drop it in front of any
 > LLM call in any app. Every call is logged, every call is measured, and the
