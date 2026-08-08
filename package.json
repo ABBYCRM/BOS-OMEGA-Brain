@@ -1,0 +1,26 @@
+{
+  "name": "llm-gateway",
+  "version": "0.1.11",
+  "description": "Plug-and-play LLM gateway with AION 7-law kernel + self-auditor. Drop into any app, route every LLM call through it, audit itself.",
+  "main": "server.js",
+  "type": "module",
+  "bin": {
+    "llm-audit": "bin/audit.mjs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "audit": "node bin/audit.mjs",
+    "audit:quick": "node bin/audit.mjs --quick",
+    "audit:full": "node bin/audit.mjs --full",
+    "smoke": "node test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.0"
+  },
+  "license": "MIT"
+}
